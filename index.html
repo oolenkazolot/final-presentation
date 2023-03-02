@@ -1,40 +1,130 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
 
-		<title>reveal.js</title>
+    <title>reveal.js - Auto Animate</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <link rel="stylesheet" href="../dist/reveal.css" />
+    <link rel="stylesheet" href="../dist/theme/beige.css" id="theme" />
+    <link rel="stylesheet" href="../plugin/highlight/monokai.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-auto-animate>
+          <p data-id="text-props" style="background: #fff; line-height: 1em; letter-spacing: 0em">Organization of team work</p>
+        </section>
+        <section data-auto-animate>
+          <p data-id="text-props" style="background: #fff; line-height: 3em; letter-spacing: 0.2em">Organization of team work</p>
+        </section>
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h3>RACI matrix</h3>
+          <img src="examples/assets/raci-matrix.png" style="height: 570px" />
+        </section>
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h3>Kanban board</h3>
+          <a href="https://trello.com/b/GhYhverz/rs-clone/table" target="_blank" style="display: block; font-size: 15px">https://trello.com/b/GhYhverz/rs-clone/table</a>
+          <img src="examples/assets/trello.png" style="height: 500px" />
+        </section>
+        <section data-auto-animate>
+          <p data-id="text-props" style="background: #fff; line-height: 1em; letter-spacing: 0em">Features of the technical<br/>implementation of the project</p>
+        </section>
+        <section data-auto-animate>
+          <p data-id="text-props" style="background: #fff; line-height: 3em; letter-spacing: 0.2em">Features of the technical<br/>implementation of the project</p>
+        </section>
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h3>Technical stack application</h3>
+          <a href="https://github.com/oolenkazolot/rs-clone/tree/develop#readme" target="_blank" style="display: block; font-size: 15px; margin-bottom: 20px;">https://github.com/oolenkazolot/rs-clone/tree/develop#readme</a>
+          <ul style="font-size: 23px">
+            <li>
+              Frontend:
+              <ul style="color: #3a393a">
+                <li>HTML5</li>
+                <li>SCSS</li>
+                <li>CSS</li>
+                <li>TypeScript</li>
+              </ul>
+            </li>
+            <li>
+              Backend:
+              <ul style="color: #3a393a">
+                <li>Node.js</li>
+                <li>Exspress</li>
+              </ul>
+            </li>
+            <li>
+              Database:
+              <ul style="color: #3a393a">
+                <li>Mongo DB</li>
+              </ul>
+            </li>
+            <li>
+              Library:
+              <ul style="color: #3a393a">
+                <li>Moment.js</li>
+                <li>DatePicker</li>
+              </ul>
+            </li>
+            <li>
+              Module bundler:
+              <ul style="color: #3a393a">
+                Webpack
+              </ul>
+            </li>
+            <li>
+              Web Storage API:
+              <ul style="color: #3a393a">
+                <li>localStorage</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h3>Commit history</h3>
+          <a href="https://github.com/oolenkazolot/rs-clone/commits/develop " target="_blank" style="display: block; font-size: 15px">https://github.com/oolenkazolot/rs-clone/commits/develop</a>
+          <img src="examples/assets/history commit.PNG" style="height: 570px" />
+        </section>
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h3>PR examples</h3>
+          <a href="https://github.com/oolenkazolot/rs-clone/commits/develop " target="_blank" style="display: block; font-size: 15px">https://github.com/oolenkazolot/rs-clone/commits/develop</a>
+          <img src="examples/assets/PR-examples1.jpg" style="height: 570px" />
+        </section>
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h3>PR examples</h3>
+          <a href="https://github.com/oolenkazolot/rs-clone/commits/develop " target="_blank" style="display: block; font-size: 15px">https://github.com/oolenkazolot/rs-clone/commits/develop</a>
+          <img src="examples/assets/PR-examples1.jpg" style="height: 570px" />
+        </section>
+        <section data-auto-animate data-auto-animate-unmatched="fade">
+          <h3>technical difficulties</h3>
+          <ul>
+            <li>separation into components</li>
+            <li>storing user data in a database</li>
+          </ul>
+          <p>According to the problem, consulted with the mentor, watched the video, read the documentation</p>
+        </section>
+        <section data-auto-animate>
+          <p data-id="text-props" style="background: #fff; line-height: 3em; letter-spacing: 0.2em">Women Workouts Clone</p>
+        </section>
+        
+      
+    </div>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+    <script src="../dist/reveal.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        center: true,
+        hash: true,
+        plugins: [RevealHighlight],
+      });
+    </script>
+  </body>
 </html>
